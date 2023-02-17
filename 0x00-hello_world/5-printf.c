@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - This is an entry value
- * return: always return 'zero' as the return value
+ * main - Entry
+ * Return: Always 0
  */
 int main(void)
 {
