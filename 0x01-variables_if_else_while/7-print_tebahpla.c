@@ -1,18 +1,21 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/* more headers goes there */
+
 /**
- * main - prints all alphabet in reverse
- * Return: Always 'zero'
- */
+*  main - prints the alphabet in lowercase in reverse
+*
+* Return: character
+*/
 int main(void)
 {
-	char c  = 'z';
+	char c = 'z';
 
 	while (c >= 'a')
 	{
 		putchar(c);
-		c++;
+		c--;
 	}
 	putchar('\n');
 	return (0);
