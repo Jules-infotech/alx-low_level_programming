@@ -1,15 +1,10 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * main -  a function that adds two integers and returns the result
+ * main - check the code
  *
- * Return: result
+ * Return: Always 0.
  */
-int add(int, int)
-{
-	int a;
-	int b;
-	
-	result = add(a, b);
-	return (result);
+int add(int n1, int n2)
+}
+	return (n1 + n2);
 }
