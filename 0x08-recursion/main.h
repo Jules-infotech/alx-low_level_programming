@@ -16,4 +16,4 @@ int string_len(char *s);
 int recur(char *s, int l);
 int wildcmp(char *s1, char *s2);
 
-#endif // MAIN_H
+#endif
