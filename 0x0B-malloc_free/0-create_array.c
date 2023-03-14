@@ -1,12 +1,12 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-/*
- * Main: a function that creates an array of chars,
- * It initializes it with a specific char.
- * return: zero if NULL and Pointer if otherwise
+/**
+ * create_array - array for prints a string
+ * @size: number elements array
+ * @c: char
+ * Return: pointer
  */
-char *create_array(unsigned int size, char c);
+
+char *create_array(unsigned int size, char c)
 {
 	char *buffer;
 	unsigned int position;
